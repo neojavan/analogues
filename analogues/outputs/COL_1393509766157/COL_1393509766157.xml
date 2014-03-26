@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<Map background-color="transparent" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+					<Style name="Analogues_Results"><Rule><RasterSymbolizer opacity="0.95" scaling="bilinear"/></Rule></Style>
+					<Layer name="Climate Analogues COL_1393509766157" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+					<StyleName>Analogues_Results</StyleName>
+					<Datasource>
+					<Parameter name="type">gdal</Parameter>
+					<Parameter name="file">/var/www/analogues/outputs/COL_1393509766157/COL_1393509766157.tif</Parameter>
+					</Datasource>
+					</Layer>
+					</Map>
